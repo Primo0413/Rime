@@ -1,5 +1,4 @@
-# Rime 词典 - 英文单词（回声词典）
-# 用于自动识别英文单词并原样输出
+# Rime 词典 - 嵌入式常用英文单词
 ---
 name: english_dict
 version: "1.0"
@@ -7,6 +6,157 @@ sort: original
 use_preset_vocabulary: false
 ...
 
-# 这里只放置一些示例，实际使用 echo_translator 原样输出
-# 由于 Rime 的 table_translator 需要具体词条，
-# 我们需要使用另一种方法来实现"原样输出"功能
+# ========== 数据类型 ==========
+uint8_t	uint8_t	10000
+uint8_t u	90
+uint16_t	uint16_t	10000
+uint32_t	uint32_t	10000
+uint64_t	uint64_t	10000
+int8_t	int8_t	10000
+int16_t	int16_t	10000
+int32_t	int32_t	10000
+int64_t	int64_t	10000
+size_t	size_t	10000
+float32_t	float32_t	10000
+float64_t	float64_t	10000
+
+# ========== HAL 库常用函数 ==========
+HAL_Init	HAL_Init	10000
+HAL_DeInit	HAL_DeInit	10000
+HAL_Delay	HAL_Delay	10000
+HAL_GetTick	HAL_GetTick	10000
+HAL_GPIO_Init	HAL_GPIO_Init	10000
+HAL_GPIO_WritePin	HAL_GPIO_WritePin	10000
+HAL_GPIO_ReadPin	HAL_GPIO_ReadPin	10000
+HAL_GPIO_TogglePin	HAL_GPIO_TogglePin	10000
+HAL_UART_Transmit	HAL_UART_Transmit	10000
+HAL_UART_Receive	HAL_UART_Receive	10000
+HAL_UART_Transmit_IT	HAL_UART_Transmit_IT	10000
+HAL_UART_Receive_IT	HAL_UART_Receive_IT	10000
+HAL_UART_Transmit_DMA	HAL_UART_Transmit_DMA	10000
+HAL_TIM_Base_Start	HAL_TIM_Base_Start	10000
+HAL_TIM_Base_Stop	HAL_TIM_Base_Stop	10000
+HAL_TIM_PWM_Start	HAL_TIM_PWM_Start	10000
+HAL_TIM_PWM_Stop	HAL_TIM_PWM_Stop	10000
+HAL_ADC_Start	HAL_ADC_Start	10000
+HAL_ADC_Stop	HAL_ADC_Stop	10000
+HAL_ADC_PollForConversion	HAL_ADC_PollForConversion	10000
+HAL_SPI_Transmit	HAL_SPI_Transmit	10000
+HAL_SPI_Receive	HAL_SPI_Receive	10000
+HAL_I2C_Master_Transmit	HAL_I2C_Master_Transmit	10000
+HAL_I2C_Master_Receive	HAL_I2C_Master_Receive	10000
+HAL_CAN_AddTxMessage	HAL_CAN_AddTxMessage	10000
+HAL_CAN_GetRxMessage	HAL_CAN_GetRxMessage	10000
+HAL_DMA_Start	HAL_DMA_Start	10000
+HAL_DMA_Start_IT	HAL_DMA_Start_IT	10000
+HAL_NVIC_SetPriority	HAL_NVIC_SetPriority	10000
+HAL_NVIC_EnableIRQ	HAL_NVIC_EnableIRQ	10000
+HAL_RCC_OscConfig	HAL_RCC_OscConfig	10000
+HAL_RCC_ClockConfig	HAL_RCC_ClockConfig	10000
+HAL_PWR_EnablePVD	HAL_PWR_EnablePVD	10000
+
+# ========== 标准 C 库函数 ==========
+printf	printf	10000
+sprintf	sprintf	10000
+snprintf	snprintf	10000
+scanf	scanf	10000
+sscanf	sscanf	10000
+malloc	malloc	10000
+calloc	calloc	10000
+realloc	realloc	10000
+free	free	10000
+memset	memset	10000
+memcpy	memcpy	10000
+memmove	memmove	10000
+memcmp	memcmp	10000
+strcpy	strcpy	10000
+strncpy	strncpy	10000
+strlen	strlen	10000
+strcmp	strcmp	10000
+strncmp	strncmp	10000
+strstr	strstr	10000
+strcat	strcat	10000
+strncat	strncat	10000
+atoi	atoi	10000
+atol	atol	10000
+atof	atof	10000
+strtol	strtol	10000
+strtoul	strtoul	10000
+exit	exit	10000
+abort	abort	10000
+assert	assert	10000
+
+# ========== 常用缩写 ==========
+GPIO	gpio	10000
+UART	uart	10000
+USART	usart	10000
+SPI	spi	10000
+I2C	i2c	10000
+IIC	iic	10000
+CAN	can	10000
+USB	usb	10000
+DMA	dma	10000
+ADC	adc	10000
+DAC	dac	10000
+TIM	tim	10000
+PWM	pwm	10000
+RTC	rtc	10000
+IWDG	iwdg	10000
+WWDG	wwdg	10000
+CRC	crc	10000
+RNG	rng	10000
+AES	aes	10000
+FLASH	flash	10000
+SRAM	sram	10000
+EEPROM	eeprom	10000
+SDIO	sdio	10000
+ETH	eth	10000
+LCD	lcd	10000
+LED	led	10000
+IRQ	irq	10000
+ISR	isr	10000
+MCU	mcu	10000
+CPU	cpu	10000
+RAM	ram	10000
+ROM	rom	10000
+GPIOA	gpioa	10000
+GPIOB	gpiob	10000
+GPIOC	gpioc	10000
+GPIOD	gpiod	10000
+GPIOE	gpioe	10000
+USART1	usart1	10000
+USART2	usart2	10000
+USART3	usart3	10000
+UART4	uart4	10000
+UART5	uart5	10000
+TIM1	tim1	10000
+TIM2	tim2	10000
+TIM3	tim3	10000
+TIM4	tim4	10000
+TIM5	tim5	10000
+ADC1	adc1	10000
+ADC2	adc2	10000
+ADC3	adc3	10000
+SPI1	spi1	10000
+SPI2	spi2	10000
+SPI3	spi3	10000
+I2C1	i2c1	10000
+I2C2	i2c2	10000
+CAN1	can1	10000
+CAN2	can2	10000
+DMA1	dma1	10000
+DMA2	dma2	10000
+NVIC	nvic	10000
+EXTI	exti	10000
+SysTick	systick	10000
+RCC	rcc	10000
+PWR	pwr	10000
+BKP	bkp	10000
+AFIO	afio	10000
+DBGMCU	dbgmcu	10000
+USB_OTG_FS	usb_otg_fs	10000
+USB_OTG_HS	usb_otg_hs	10000
+FSMC	fsmc	10000
+DCMI	dcmi	10000
+CRYP	cryp	10000
+HASH	hash	10000
