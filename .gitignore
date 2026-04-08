@@ -1,0 +1,18 @@
+# Rime 输入法 - Git 忽略文件
+# 排除编译生成的文件和用户数据
+
+# 编译生成的 build 目录
+/build/
+
+# 用户词典数据库
+/luna_pinyin.userdb/
+
+# 其他可能生成的二进制文件
+*.bin
+*.prism
+*.reverse
+*.table
+
+# 本地用户状态文件
+/user.yaml
+/installation.yaml
