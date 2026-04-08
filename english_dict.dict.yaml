@@ -1,0 +1,12 @@
+# Rime 词典 - 英文单词（回声词典）
+# 用于自动识别英文单词并原样输出
+---
+name: english_dict
+version: "1.0"
+sort: original
+use_preset_vocabulary: false
+...
+
+# 这里只放置一些示例，实际使用 echo_translator 原样输出
+# 由于 Rime 的 table_translator 需要具体词条，
+# 我们需要使用另一种方法来实现"原样输出"功能

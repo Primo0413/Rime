@@ -1,0 +1,35 @@
+# luna_pinyin_simp 自定义配置 - 嵌入式工程师优化
+patch:
+  # ===== 永远启用简体字 =====
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: [中文, 西文]
+    - name: full_shape
+      reset: 0
+      states: [半角, 全角]
+    - name: simplification
+      reset: 1
+      states: [繁, 简]
+
+  # ===== 启用自定义短语 =====
+  translator/custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+
+  # ===== 启用嵌入式专业词库 =====
+  translator/dictionaries:
+    - engineer_dict
+    - luna_pinyin
+
+  # ===== 简化字模式配置 =====
+  simplifier:
+    opencc_config: t2s.json
+    option_name: simplification
+
+  # ===== 符号反查 =====
+  recognizer/patterns/reverse_lookup: "`[a-z]*$"

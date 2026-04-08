@@ -1,0 +1,777 @@
+# Rime 词典 - 嵌入式工程师专业词库
+# 放置位置: %APPDATA%\Rime\engineer_dict.yaml
+# 重新部署后生效
+
+---
+name: engineer_dict
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - luna_pinyin
+
+# 嵌入式/电子工程术语
+...
+
+# ========== 通用嵌入式术语 ==========
+微控制器	wei kong zhi qi	100
+单片机	dan pian ji	100
+嵌入式	qian ru shi	100
+固件	gu jian	100
+烧录	shao lu	100
+下载器	xia zai qi	100
+调试器	tiao shi qi	100
+仿真器	fang zhen qi	100
+编程器	bian cheng qi	100
+逻辑分析仪	luo ji fen xi yi	100
+示波器	shi bo qi	100
+万用表	wan yong biao	100
+电源	 Dian yuan	100
+稳压器	wen ya qi	100
+稳压电源	wen ya dian yuan	100
+开关电源	kai guan dian yuan	100
+线性电源	xian xing dian yuan	100
+
+# ========== 通信协议 ==========
+串口	chuan kou	100
+并口	bing kou	100
+串行通信	chuan xing tong xin	100
+并行通信	bing xing tong xin	100
+波特率	bo te lv	100
+比特率	bi te lv	100
+数据位	shu ju wei	100
+停止位	ting zhi wei	100
+校验位	jiao yan wei	100
+奇校验	ji jiao yan	100
+偶校验	ou jiao yan	100
+无校验	wu jiao yan	100
+流控	liu kong	100
+硬件流控	ying jian liu kong	100
+软件流控	ruan jian liu kong	100
+半双工	ban shuang gong	100
+全双工	quan shuang gong	100
+单工	dan gong	100
+主从模式	zhu cong mo shi	100
+多主模式	duo zhu mo shi	100
+从机模式	cong ji mo shi	100
+
+# ========== 硬件接口 ==========
+寄存器	ji cun qi	100
+通用寄存器	tong yong ji cun qi	100
+特殊功能寄存器	te shu gong neng ji cun qi	100
+内存地址	nei cun di zhi	100
+物理地址	wu li di zhi	100
+虚拟地址	xu ni di zhi	100
+内存映射	nei cun ying she	100
+端口	duan kou	100
+引脚	yin jiao	100
+管脚	guan jiao	100
+芯片	xin pian	100
+晶振	jing zhen	100
+时钟	shi zhong	100
+时钟源	shi zhong yuan	100
+时钟树	shi zhong shu	100
+分频器	fen pin qi	100
+倍频器	bei pin qi	100
+锁相环	suo xiang huan	100
+复位	fu wei	100
+上电复位	shang dian fu wei	100
+看门狗复位	kan men gou fu wei	100
+手动复位	shou dong fu wei	100
+中断	zhong duan	100
+外部中断	wai bu zhong duan	100
+内部中断	nei bu zhong duan	100
+定时器中断	ding shi qi zhong duan	100
+串口中断	chuan kou zhong duan	100
+中断向量	zhong duan xiang liang	100
+中断向量表	zhong duan xiang liang biao	100
+中断优先级	zhong duan you xian ji	100
+嵌套中断	qian tao zhong duan	100
+中断服务程序	zhong duan fu wu cheng xu	100
+中断回调函数	zhong duan hui diao han shu	100
+
+# ========== GPIO相关 ==========
+通用输入输出	tong yong shu ru shu chu	100
+上拉	shang la	100
+下拉	xia la	100
+推挽	tui wan	100
+开漏	kai lou	100
+浮空	fu kong	100
+模拟输入	mo ni shu ru	100
+复用功能	fu yong gong neng	100
+外部中断模式	wai bu zhong duan mo shi	100
+事件模式	shi jian mo shi	100
+速度等级	su du deng ji	100
+低功耗	di gong hao	100
+休眠模式	xiu mian mo shi	100
+待机模式	dai ji mo shi	100
+停机模式	ting ji mo shi	100
+
+# ========== 定时器 ==========
+定时器	ding shi qi	100
+计数器	ji shu qi	100
+基本定时器	ji ben ding shi qi	100
+通用定时器	tong yong ding shi qi	100
+高级定时器	gao ji ding shi qi	100
+看门狗定时器	kan men gou ding shi qi	100
+实时时钟	shi shi zhong	100
+滴答定时器	di da ding shi qi	100
+系统滴答	xi tong di da	100
+周期	zhou qi	100
+频率	pin lv	100
+占空比	zhan kong bi	100
+脉宽调制	mai kuan tiao zhi	100
+输入捕获	shu ru bu huo	100
+输出比较	shu chu bi jiao	100
+编码器接口	bian ma qi jie kou	100
+死区时间	si qu shi jian	100
+刹车功能	sha che gong neng	100
+互补输出	hu bu shu chu	100
+
+# ========== ADC/DAC ==========
+模数转换器	mo shu zhuan huan qi	100
+数模转换器	shu mo zhuan huan qi	100
+采样	cai yang	100
+采样率	cai yang lv	100
+采样时间	cai yang shi jian	100
+分辨率	fen bian lv	100
+精度	jing du	100
+线性度	xian xing du	100
+偏移量	pian yi liang	100
+增益	zeng yi	100
+参考电压	can kao dian ya	100
+基准电压	ji zhun dian ya	100
+量程	liang cheng	100
+单端模式	dan duan mo shi	100
+差分模式	cha fen mo shi	100
+扫描模式	sao miao mo shi	100
+连续转换模式	lian xu zhuan huan mo shi	100
+单次转换模式	dan ci zhuan huan mo shi	100
+数据对齐	shu ju dui qi	100
+左对齐	zuo dui qi	100
+右对齐	you dui qi	100
+通道	 tong dao	100
+注入通道	zhu ru tong dao	100
+规则通道	gui ze tong dao	100
+温度传感器	wen du chuan gan qi	100
+内部参考电压	nei bu can kao dian ya	100
+
+# ========== DMA ==========
+直接内存访问	zhi jie nei cun fang wen	100
+DMA控制器	DMA kong zhi qi	100
+数据流	shu ju liu	100
+通道	 tong dao	100
+循环模式	xun huan mo shi	100
+正常模式	zheng chang mo shi	100
+外设到内存	wai she dao nei cun	100
+内存到外设	nei cun dao wai she	100
+内存到内存	nei cun dao nei cun	100
+FIFO	FIFO	100
+突发传输	ba fa chuan shu	100
+单次传输	dan ci chuan shu	100
+传输完成中断	chuan shu wan cheng zhong duan	100
+半传输中断	ban chuan shu zhong duan	100
+传输错误中断	chuan shu cuo wu zhong duan	100
+
+# ========== 通信接口 ==========
+串行外设接口	chuan xing wai she jie kou	100
+集成电路总线	ji cheng dian lu zong xian	100
+控制器局域网	kong zhi qi ju yu wang	100
+通用串行总线	tong yong chuan xing zong xian	100
+以太网	yi tai wang	100
+串行数据线	chuan xing shu ju xian	100
+时钟线	shi zhong xian	100
+主设备	zhu she bei	100
+从设备	cong she bei	100
+片选	pian xuan	100
+使能	shi neng	100
+应答	ying da	100
+非应答	fei ying da	100
+起始信号	qi shi xin hao	100
+停止信号	ting zhi xin hao	100
+重复起始	chong fu qi shi	100
+仲裁	zhong cai	100
+位填充	wei tian chong	100
+CRC校验	CRC jiao yan	100
+帧	 zhen	100
+数据帧	shu ju zhen	100
+远程帧	yuan cheng zhen	100
+错误帧	cuo wu zhen	100
+过载帧	guo zai zhen	100
+标识符	biao shi fu	100
+标准帧	biao zhun zhen	100
+扩展帧	kuo zhan zhen	100
+数据长度码	shu ju chang du ma	100
+邮箱	you xiang	100
+过滤器	guo lv qi	100
+掩码	yan ma	100
+列表模式	lie biao mo shi	100
+掩码模式	yan ma mo shi	100
+波特率预分频器	bo te lv yu fen pin qi	100
+时间段	shi jian duan	100
+同步段	tong bu duan	100
+传播时间段	chuan bo shi jian duan	100
+相位缓冲段	xiang wei huan chong duan	100
+
+# ========== Flash存储 ==========
+闪存	shan cun	100
+程序存储器	cheng xu cun chu qi	100
+数据存储器	shu ju cun chu qi	100
+EEPROM	EEPROM	100
+扇区	shan qu	100
+页	 ye	100
+字节	zi jie	100
+半字	ban zi	100
+字	 zi	100
+双字	shuang zi	100
+擦除	ca chu	100
+编程	bian cheng	100
+写入	xie ru	100
+读取	du qu	100
+校验	jiao yan	100
+保护	bao hu	100
+读保护	du bao hu	100
+写保护	xie bao hu	100
+选项字节	xuan xiang zi jie	100
+启动模式	qi dong mo shi	100
+系统存储器	xi tong cun chu qi	100
+主闪存存储器	zhu shan cun cun chu qi	100
+内置SRAM	nei zhi SRAM	100
+
+# ========== 电源管理 ==========
+电源管理	 Dian yuan guan li	100
+低功耗模式	 Di gong hao mo shi	100
+睡眠模式	shui mian mo shi	100
+停止模式	ting zhi mo shi	100
+待机模式	dai ji mo shi	100
+电压调节器	 Dian ya tiao jie qi	100
+调压器	tiao ya qi	100
+低压检测	 Di ya jian ce	100
+欠压复位	qian ya fu wei	100
+上电复位	shang Dian fu wei	100
+掉电复位	 diao Dian fu wei	100
+备用电源	bei yong Dian yuan	100
+电池备份	 Dian chi bei fen	100
+实时时钟电源	shi shi zhong Dian yuan	100
+
+# ========== 调试相关 ==========
+调试接口	tiao shi jie kou	100
+串行线调试	chuan xing xian tiao shi	100
+串行线查看器	chuan xing xian cha kan qi	100
+调试端口	tiao shi duan kou	100
+跟踪端口	gen zong duan kou	100
+嵌入式跟踪宏单元	qian ru shi gen zong hong dan yuan	100
+断点	duan dian	100
+观察点	guan cha dian	100
+单步执行	dan bu zhi xing	100
+全速运行	quan su yun xing	100
+复位运行	fu wei yun xing	100
+变量监视	bian liang jian shi	100
+内存查看	nei cun cha kan	100
+寄存器查看	ji cun qi cha kan	100
+反汇编	fan hui bian	100
+调用栈	 Diao yong zhan	100
+堆栈	dui zhan	100
+局部变量	ju bu bian liang	100
+全局变量	quan ju bian liang	100
+静态变量	jing tai bian liang	100
+
+# ========== 操作系统相关 ==========
+实时操作系统	shi shi cao zuo xi tong	100
+任务	ren wu	100
+进程	jin cheng	100
+线程	xian cheng	100
+优先级	you xian ji	100
+调度器	 Diao du qi	100
+时间片	shi jian pian	100
+上下文	shang xia wen	100
+上下文切换	shang xia wen qie huan	100
+临界区	lin jie qu	100
+互斥量	hu chi liang	100
+信号量	xin hao liang	100
+事件标志	shi jian biao zhi	100
+消息队列	xiao xi dui lie	100
+邮箱	you xiang	100
+内存池	nei cun chi	100
+堆栈溢出	dui zhan yi chu	100
+死锁	si suo	100
+优先级反转	you xian ji fan zhuan	100
+优先级继承	you xian ji ji cheng	100
+
+# ========== 编译工具链 ==========
+编译器	bian yi qi	100
+汇编器	hui bian qi	100
+链接器	lian jie qi	100
+加载器	jia zai qi	100
+调试器	tiao shi qi	100
+工具链	gong ju lian	100
+交叉编译器	jiao cha bian yi qi	100
+目标文件	mu biao wen jian	100
+可执行文件	ke zhi xing wen jian	100
+静态库	jing tai ku	100
+动态库	dong tai ku	100
+共享库	gong xiang ku	100
+目标码	mu biao ma	100
+机器码	ji qi ma	100
+汇编代码	hui bian dai ma	100
+反汇编	fan hui bian	100
+符号表	fu hao biao	100
+映射文件	ying she wen jian	100
+链接脚本	lian jie jiao ben	100
+启动文件	qi dong wen jian	100
+分散加载文件	fen san jia zai wen jian	100
+
+# ========== 常见芯片厂商 ==========
+意法半导体	yi fa ban dao ti	100
+德州仪器	de zhou yi qi	100
+恩智浦	en zhi pu	100
+微芯科技	wei xin ke ji	100
+瑞萨电子	rui sa Dian zi	100
+英飞凌	ying fei ling	100
+赛普拉斯	sai pu la si	100
+亚德诺	ya de nuo	100
+美信	mei xin	100
+兆易创新	zhao yi chuang xin	100
+乐鑫	le xin	100
+中颖电子	zhong ying Dian zi	100
+灵动微	ling dong wei	100
+华大半导体	 Hua da ban dao ti	100
+国民技术	guo min ji shu	100
+复旦微	fu dan wei	100
+新唐	xin tang	100
+
+# ========== ARM相关 ==========
+ARM架构	ARM jia gou	100
+Cortex-M0	Cortex-M0	100
+Cortex-M0+	Cortex-M0+	100
+Cortex-M3	Cortex-M3	100
+Cortex-M4	Cortex-M4	100
+Cortex-M7	Cortex-M7	100
+Cortex-M23	Cortex-M23	100
+Cortex-M33	Cortex-M33	100
+Cortex-M55	Cortex-M55	100
+Cortex-M85	Cortex-M85	100
+Thumb指令集	Thumb zhi ling ji	100
+Thumb-2指令集	Thumb-2 zhi ling ji	100
+NEON	NEON	100
+DSP指令	DSP zhi ling	100
+浮点单元	fu dian dan yuan	100
+单精度浮点	dan jing du fu dian	100
+双精度浮点	shuang jing du fu dian	100
+嵌套向量中断控制器	qian tao xiang liang zhong duan kong zhi qi	100
+数据观察点和跟踪	shu ju guan cha dian he gen zong	100
+闪存补丁和断点	shan cun bu ding he duan dian	100
+仪器跟踪宏单元	yi qi gen zong hong dan yuan	100
+内存保护单元	nei cun bao hu dan yuan	100
+安全属性单元	an quan shu xing dan yuan	100
+TrustZone	TrustZone	100
+
+# ========== 常见外设 ==========
+液晶显示器	ye jing xian shi qi	100
+有机发光二极管	you ji fa guang er ji guan	100
+发光二极管	fa guang er ji guan	100
+数码管	shu ma guan	100
+按键	an jian	100
+矩阵键盘	ju zhen jian pan	100
+触摸屏	chu mo ping	100
+电阻屏	dian zu ping	100
+电容屏	dian rong ping	100
+蜂鸣器	feng ming qi	100
+继电器	ji Dian qi	100
+步进电机	bu jin Dian ji	100
+伺服电机	si fu Dian ji	100
+直流电机	zhi liu Dian ji	100
+编码器	bian ma qi	100
+传感器	chuan gan qi	100
+温度传感器	wen du chuan gan qi	100
+湿度传感器	shi du chuan gan qi	100
+压力传感器	ya li chuan gan qi	100
+加速度传感器	jia su du chuan gan qi	100
+陀螺仪	tuo luo yi	100
+磁力计	ci li ji	100
+全球定位系统	quan qiu ding wei xi tong	100
+射频识别	she pin shi bie	100
+近场通信	jin chang tong xin	100
+蓝牙	lan ya	100
+低功耗蓝牙	 Di gong hao lan ya	100
+无线局域网	wu xian ju yu wang	100
+ZigBee	ZigBee	100
+LoRa	LoRa	100
+NB-IoT	NB-IoT	100
+以太网	yi tai wang	100
+SD卡	SD ka	100
+SDIO	SDIO	100
+多媒体卡	duo mei ti ka	100
+闪存卡	shan cun ka	100
+硬盘	ying pan	100
+固态硬盘	gu tai ying pan	100
+
+# ========== 数据结构 ==========
+数组	shu zu	100
+链表	lian biao	100
+单向链表	dan xiang lian biao	100
+双向链表	shuang xiang lian biao	100
+循环链表	xun huan lian biao	100
+栈	 zhan	100
+队列	dui lie	100
+循环队列	xun huan dui lie	100
+优先队列	you xian dui lie	100
+树	 shu	100
+二叉树	er cha shu	100
+平衡树	ping heng shu	100
+红黑树	hong hei shu	100
+B树	B shu	100
+B+树	B+ shu	100
+哈希表	xi xi biao	100
+散列表	san lie biao	100
+图	 tu	100
+有向图	you xiang tu	100
+无向图	wu xiang tu	100
+邻接表	lin jie biao	100
+邻接矩阵	lin jie ju zhen	100
+
+# ========== 算法相关 ==========
+排序	pai xu	100
+冒泡排序	mao pao pai xu	100
+选择排序	xuan ze pai xu	100
+插入排序	cha ru pai xu	100
+快速排序	kuai su pai xu	100
+归并排序	gui bing pai xu	100
+堆排序	dui pai xu	100
+希尔排序	xi er pai xu	100
+计数排序	ji shu pai xu	100
+基数排序	ji shu pai xu	100
+桶排序	tong pai xu	100
+查找	cha zhao	100
+顺序查找	shun xu cha zhao	100
+二分查找	er fen cha zhao	100
+哈希查找	xi xi cha zhao	100
+二叉搜索树	er cha sou suo shu	100
+深度优先	shen du you xian	100
+广度优先	guang du you xian	100
+递归	di gui	100
+迭代	die dai	100
+分治	fen zhi	100
+动态规划	dong tai gui hua	100
+贪心算法	tan xin suan fa	100
+回溯法	hui su fa	100
+分支限界	fen zhi xian jie	100
+
+# ========== 设计模式 ==========
+设计模式	she ji mo shi	100
+单例模式	dan li mo shi	100
+工厂模式	gong chang mo shi	100
+抽象工厂	chou xiang gong chang	100
+建造者模式	jian zao zhe mo shi	100
+原型模式	yuan xing mo shi	100
+适配器模式	shi pei qi mo shi	100
+桥接模式	qiao jie mo shi	100
+组合模式	zu he mo shi	100
+装饰器模式	zhuang shi qi mo shi	100
+外观模式	wai guan mo shi	100
+享元模式	xiang yuan mo shi	100
+代理模式	dai li mo shi	100
+责任链模式	ze ren lian mo shi	100
+命令模式	ming ling mo shi	100
+解释器模式	jie shi qi mo shi	100
+迭代器模式	 Die dai qi mo shi	100
+中介者模式	zhong jie zhe mo shi	100
+备忘录模式	bei wang lu mo shi	100
+观察者模式	guan cha zhe mo shi	100
+状态模式	zhuang tai mo shi	100
+策略模式	ce lve mo shi	100
+模板方法	mo ban fang fa	100
+访问者模式	fang wen zhe mo shi	100
+
+# ========== 版本控制 ==========
+版本控制	ban ben kong zhi	100
+分布式版本控制	fen bu shi ban ben kong zhi	100
+集中式版本控制	ji zhong shi ban ben kong zhi	100
+仓库	cang ku	100
+本地仓库	ben di cang ku	100
+远程仓库	yuan cheng cang ku	100
+克隆	ke long	100
+分支	fen zhi	100
+主分支	zhu fen zhi	100
+开发分支	kai fa fen zhi	100
+功能分支	gong neng fen zhi	100
+发布分支	fa bu fen zhi	100
+热修复分支
+e xiu fu fen zhi	100
+合并	he bing	100
+变基	bian ji	100
+冲突	chong tu	100
+解决冲突	jie jue chong tu	100
+提交	 Ti jiao	100
+推送	 Tui song	100
+拉取	 La qu	100
+获取	 Huo qu	100
+标签	biao qian	100
+里程碑	li cheng bei	100
+
+# ========== 开发流程 ==========
+敏捷开发	min jie kai fa	100
+瀑布模型	pu bu mo xing	100
+迭代开发	 Die dai kai fa	100
+增量开发	zeng liang kai fa	100
+螺旋模型	luo xuan mo xing	100
+V模型	V mo xing	100
+测试驱动开发	ce shi qu dong kai fa	100
+行为驱动开发	xing wei qu dong kai fa	100
+持续集成	chi xu ji cheng	100
+持续交付	chi xu jiao fu	100
+持续部署	chi xu bu shu	100
+代码审查	 Dai ma shen cha	100
+结对编程	jie dui bian cheng	100
+重构	chong gou	100
+技术债务	ji shu zhai wu	100
+
+# ========== 测试相关 ==========
+单元测试	 Dan yuan ce shi	100
+集成测试	ji cheng ce shi	100
+系统测试	 Xi tong ce shi	100
+验收测试	 Yan shou ce shi	100
+回归测试	 Hui gui ce shi	100
+性能测试	 Xing neng ce shi	100
+压力测试	 Ya li ce shi	100
+负载测试	 Fu zai ce shi	100
+稳定性测试	 Wen ding xing ce shi	100
+兼容性测试	 Jian rong xing ce shi	100
+白盒测试	 Bai he ce shi	100
+黑盒测试	 Hei he ce shi	100
+灰盒测试	 Hui he ce shi	100
+静态测试	 Jing tai ce shi	100
+动态测试	 Dong tai ce shi	100
+代码覆盖率	 Dai ma fu gai lv	100
+语句覆盖	 Yu ju fu gai	100
+分支覆盖	 Fen zhi fu gai	100
+条件覆盖	 Tiao jian fu gai	100
+路径覆盖	 Lu jing fu gai	100
+断言	 Duan yan	100
+桩模块	 Zhuang mo kuai	100
+驱动模块	 Qu dong mo kuai	100
+
+# ========== 安全相关 ==========
+信息安全	xin xi an quan	100
+网络安全	wang luo an quan	100
+加密	jia mi	100
+解密	jie mi	100
+对称加密	dui cheng jia mi	100
+非对称加密	fei dui cheng jia mi	100
+公钥	gong yao	100
+私钥	si yao	100
+数字签名	shu zi qian ming	100
+数字证书	shu zi zheng shu	100
+哈希函数	xi xi han shu	100
+消息摘要	xiao xi zhai yao	100
+认证	ren zheng	100
+授权	shou quan	100
+访问控制	fang wen kong zhi	100
+防火墙	fang huo qiang	100
+入侵检测	ru qin jian ce	100
+漏洞	lou dong	100
+补丁	bu ding	100
+恶意软件	e yi ruan jian	100
+病毒	bing du	100
+木马	mu ma	100
+蠕虫	ru chong	100
+勒索软件	le suo ruan jian	100
+缓冲区溢出	huan chong qu yi chu	100
+栈溢出	zhan yi chu	100
+堆溢出	dui yi chu	100
+格式化字符串漏洞	ge shi hua zi fu chuan lou dong	100
+整数溢出	zheng shu yi chu	100
+竞争条件	jing zheng tiao jian	100
+死锁	si suo	100
+
+# ========== 网络相关 ==========
+网络协议	wang luo xie yi	100
+传输层	chuan shu ceng	100
+网络层	wang luo ceng	100
+数据链路层	shu ju lian lu ceng	100
+物理层	wu li ceng	100
+应用层	ying yong ceng	100
+表示层	biao shi ceng	100
+会话层	hui hua ceng	100
+TCP协议	TCP xie yi	100
+UDP协议	UDP xie yi	100
+IP协议	IP xie yi	100
+ICMP协议	ICMP xie yi	100
+ARP协议	ARP xie yi	100
+HTTP协议	HTTP xie yi	100
+HTTPS协议	HTTPS xie yi	100
+FTP协议	FTP xie yi	100
+SMTP协议	SMTP xie yi	100
+POP3协议	POP3 xie yi	100
+IMAP协议	IMAP xie yi	100
+DNS协议	DNS xie yi	100
+DHCP协议	DHCP xie yi	100
+SNMP协议	SNMP xie yi	100
+Telnet协议	Telnet xie yi	100
+SSH协议	SSH xie yi	100
+WebSocket协议	WebSocket xie yi	100
+MQTT协议	MQTT xie yi	100
+CoAP协议	CoAP xie yi	100
+套接字	tao jie zi	100
+端口	duan kou	100
+IP地址	IP di zhi	100
+子网掩码	zi wang yan ma	100
+网关	wang guan	100
+路由	lu you	100
+交换机	jiao huan ji	100
+路由器	lu you qi	100
+防火墙	fang huo qiang	100
+负载均衡	fu zai jun heng	100
+NAT	NAT	100
+VPN	VPN	100
+代理服务器	 Dai li fu wu qi	100
+CDN	CDN	100
+
+# ========== 文件系统 ==========
+文件系统	wen jian xi tong	100
+FAT文件系统	FAT wen jian xi tong	100
+FAT12	FAT12	100
+FAT16	FAT16	100
+FAT32	FAT32	100
+exFAT	exFAT	100
+NTFS	NTFS	100
+ext2	ext2	100
+ext3	ext3	100
+ext4	ext4	100
+YAFFS	YAFFS	100
+JFFS2	JFFS2	100
+UBIFS	UBIFS	100
+Cramfs	Cramfs	100
+Squashfs	Squashfs	100
+ROM文件系统	ROM wen jian xi tong	100
+RAM文件系统	RAM wen jian xi tong	100
+虚拟文件系统	xu ni wen jian xi tong	100
+挂载	gua zai	100
+卸载	xie zai	100
+格式化	ge shi hua	100
+分区	fen qu	100
+主分区	zhu fen qu	100
+扩展分区	kuo zhan fen qu	100
+逻辑分区	luo ji fen qu	100
+引导扇区	yin dao shan qu	100
+文件分配表	wen jian fen pei biao	100
+目录项	mu lu xiang	100
+inode	inode	100
+超级块	chao ji kuai	100
+
+# ========== 启动相关 ==========
+启动加载器	qi dong jia zai qi	100
+引导程序	yin dao cheng xu	100
+第一阶段引导	 Di yi jie duan yin dao	100
+第二阶段引导	 Di er jie duan yin dao	100
+主引导记录	zhu yin dao ji lu	100
+分区表	fen qu biao	100
+启动扇区	qi dong shan qu	100
+内核镜像	nei he jing xiang	100
+根文件系统	gen wen jian xi tong	100
+设备树	she bei shu	100
+设备树二进制	she bei shu er jin zhi	100
+扁平化设备树	bian ping hua she bei shu	100
+启动参数	qi dong can shu	100
+命令行	ming ling hang	100
+初始化进程	chu shi hua jin cheng	100
+系统调用	 Xi tong Diao yong	100
+中断向量表	zhong duan xiang liang biao	100
+复位向量	fu wei xiang liang	100
+
+# ========== 常见缩写 ==========
+GPIO	GPIO	100
+UART	UART	100
+USART	USART	100
+SPI	SPI	100
+I2C	I2C	100
+IIC	IIC	100
+CAN	CAN	100
+USB	USB	100
+ETH	ETH	100
+SDIO	SDIO	100
+DMA	DMA	100
+ADC	ADC	100
+DAC	DAC	100
+TIM	TIM	100
+RTC	RTC	100
+PWM	PWM	100
+IWDG	IWDG	100
+WWDG	WWDG	100
+CRC	CRC	100
+RNG	RNG	100
+AES	AES	100
+HASH	HASH	100
+DCMI	DCMI	100
+LTDC	LTDC	100
+SAI	SAI	100
+SDMMC	SDMMC	100
+FMC	FMC	100
+QUADSPI	QUADSPI	100
+DFSDM	DFSDM	100
+LPTIM	LPTIM	100
+LPUART	LPUART	100
+SWPMI	SWPMI	100
+TSC	TSC	100
+LCD	LCD	100
+OPAMP	OPAMP	100
+COMP	COMP	100
+VREFBUF	VREFBUF	100
+UCPD	UCPD	100
+FDCAN	FDCAN	100
+HRTIM	HRTIM	100
+FDMAC	FDMAC	100
+MDMA	MDMA	100
+JPEG	JPEG	100
+DSI	DSI	100
+DFSDM	DFSDM	100
+MDIOS	MDIOS	100
+PSSI	PSSI	100
+CORDIC	CORDIC	100
+FMAC	FMAC	100
+HSEM	HSEM	100
+IPC	IPC	100
+MDF	MDF	100
+ADF	ADF	100
+GPDMA	GPDMA	100
+LPDMA	LPDMA	100
+ICACHE	ICACHE	100
+DCACHE	DCACHE	100
+DTCM	DTCM	100
+ITCM	ITCM	100
+AXI	AXI	100
+AHB	AHB	100
+APB	APB	100
+AMBA	AMBA	100
+CMSIS	CMSIS	100
+HAL	HAL	100
+LL	LL	100
+BSP	BSP	100
+RTOS	RTOS	100
+IDE	IDE	100
+JTAG	JTAG	100
+SWD	SWD	100
+SWO	SWO	100
+ETM	ETM	100
+ITM	ITM	100
+DWT	DWT	100
+FPB	FPB	100
+SCS	SCS	100
+NVIC	NVIC	100
+SysTick	SysTick	100
+MPU	MPU	100
+FPU	FPU	100
+DSP	DSP	100
+SIMD	SIMD	100
+NEON	NEON	100
+TrustZone	TrustZone	100
+SAU	SAU	100
+IDAU	IDAU	100
+Sau	Sau	100
+TZ	TZ	100
+NS	NS	100
+S	S	100
+PSA	PSA	100
+TF-M	TF-M	100
+MCUboot	MCUboot	100
+MCUBoot	MCUBoot	100

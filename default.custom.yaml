@@ -1,0 +1,109 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: VERSION_MAJOR.VERSION_MINOR.VERSION_PATCH
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Tue Apr  7 17:32:24 2026"
+  rime_version: 1.16.1
+patch:
+# 菜单选项
+  menu:
+    page_size: 9  # 每页候选词数量
+
+  schema_list:
+    - {schema: luna_pinyin_simp}
+    
+  # 中英文切换键
+  ascii_composer/switch_key:
+    Shift_L: commit_code    # 左Shift切换中英文
+    Shift_R: commit_code    # 右Shift切换中英文
+    Caps_Lock: clear        # CapsLock清屏
+    Control_L: noop
+    Control_R: noop
+    Eisu_toggle: clear
+  
+  # 切换中英文时同时切换标点符号
+  ascii_composer/good_old_caps_lock: false
+  ascii_composer/toggle_switch: true
+
+  # 程序感知 - 在代码编辑器中默认英文
+  app_options:
+    code.exe:               # VS Code
+      ascii_mode: true
+      vim_mode: true
+    devenv.exe:             # Visual Studio
+      ascii_mode: true
+    notepad++.exe:          # Notepad++
+      ascii_mode: true
+    idea64.exe:             # IntelliJ IDEA
+      ascii_mode: true
+    clion64.exe:            # CLion
+      ascii_mode: true
+    pycharm64.exe:          # PyCharm
+      ascii_mode: true
+    webstorm64.exe:         # WebStorm
+      ascii_mode: true
+    rider64.exe:            # Rider
+      ascii_mode: true
+    datagrip64.exe:         # DataGrip
+      ascii_mode: true
+    goland64.exe:           # GoLand
+      ascii_mode: true
+    phpstorm64.exe:         # PhpStorm
+      ascii_mode: true
+    rubymine64.exe:         # RubyMine
+      ascii_mode: true
+    studio64.exe:           # Android Studio
+      ascii_mode: true
+    windows_terminal.exe:   # Windows Terminal
+      ascii_mode: true
+    wt.exe:                 # Windows Terminal (新)
+      ascii_mode: true
+    cmd.exe:                # CMD
+      ascii_mode: true
+    powershell.exe:         # PowerShell
+      ascii_mode: true
+    pwsh.exe:               # PowerShell Core
+      ascii_mode: true
+    git-bash.exe:           # Git Bash
+      ascii_mode: true
+    mintty.exe:             # MinTTY
+      ascii_mode: true
+    alacritty.exe:          # Alacritty
+      ascii_mode: true
+    tabby.exe:              # Tabby
+      ascii_mode: true
+    putty.exe:              # PuTTY
+      ascii_mode: true
+    xshell.exe:             # Xshell
+      ascii_mode: true
+    securecrt.exe:          # SecureCRT
+      ascii_mode: true
+    mobaxterm.exe:          # MobaXterm
+      ascii_mode: true
+    sourceinsight4.exe:     # Source Insight
+      ascii_mode: true
+    understand.exe:         # Understand
+      ascii_mode: true
+    sublime_text.exe:       # Sublime Text
+      ascii_mode: true
+    atom.exe:               # Atom
+      ascii_mode: true
+    brackets.exe:           # Brackets
+      ascii_mode: true
+    vim.exe:                # Vim
+      ascii_mode: true
+      vim_mode: true
+    nvim.exe:               # Neovim
+      ascii_mode: true
+      vim_mode: true
+    nvim-qt.exe:            # Neovim Qt
+      ascii_mode: true
+      vim_mode: true
+    emacs.exe:              # Emacs
+      ascii_mode: true
+    msedge.exe:             # Edge (浏览器保持中文)
+      ascii_mode: false
+    chrome.exe:             # Chrome
+      ascii_mode: false
+    firefox.exe:            # Firefox
+      ascii_mode: false
