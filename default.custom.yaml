@@ -7,7 +7,7 @@ customization:
 patch:
 # 菜单选项
   menu:
-    page_size: 9  # 每页候选词数量
+    page_size: 3  # 每页候选词数量
 
   schema_list:
     - {schema: luna_pinyin_simp}
